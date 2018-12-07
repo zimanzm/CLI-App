@@ -39,6 +39,27 @@ var TV = function() {
     // Append the actor's name, birthday, gender, country, and URL to the `log.txt` file
     // console.log("STUFF")
     // Print this information to the console
+    axios.get(URL).then(function(response) {
+      // Place the response.data into a variable, jsonData.
+      var jsonData = response.data;
+      // debugger;
+      // console.log(response.data)
+      // debugger;
+      // showData ends up being the string containing the show data we will print to the console
+      var showData = [
+        "Actor Name: " + jsonData[0].person.name,
+        "Birthday: " + jsonData[0].person.birthday,
+        "Country: " + jsonData[0].person.country.name,
+        "Gender: " + jsonData[0].person.gender,
+        "URL: " + jsonData[0].person.url
+      ].join("\n\n");
+
+      // Append showData and the divider to log.txt, print showData to the console
+      fs.appendFile("log.txt", showData + divider, function(err) {
+        if (err) throw err;
+       
+      });
+    });
   };
 };
 

@@ -9,3 +9,14 @@ Network: HBO
 Summary: <p>The first season of <b>The Wire</b> (2002) concentrated on the often-futile efforts of police to infiltrate a West Baltimore drug ring headed by Avon Barksdale and his lieutenant, Stringer Bell. In Seasons Two and Three, as the Barksdale investigation escalated, new storylines involving pressures on the working class and the city's political leadership were introduced. Season Four focused on the stories of several young boys in the public school system, struggling with problems at home and the lure of the corner - set against the rise of a new drug empire in West Baltimore and a new Mayor in City Hall. The fifth and final season of <i>The Wire</i> centers on the media's role in addressing - or failing to address - the fundamental political, economic and social realities depicted over the course of the series, while also resolving storylines of the numerous characters woven throughout the narrative arc of the show.</p>
 ------------------------------------------------------------
 
+Actor Name: Denzel Washington
+
+Birthday: 1954-12-28
+
+Country: United States
+
+Gender: Male
+
+URL: http://www.tvmaze.com/people/66167/denzel-washington
+------------------------------------------------------------
+
